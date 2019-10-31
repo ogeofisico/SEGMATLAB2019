@@ -8,7 +8,7 @@ if strcmp(dist,'Erro') %<- Testa se a função distancia calculou
     return
 end
 
-menor = dist(i);
+menor = dist(1);
 
 for i = 1:length(dist)
     if menor > dist(i)
